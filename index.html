@@ -9,6 +9,23 @@
           content="A landing page for Mark Ahern, which provides links to information about him, his interests, his social network profiles and stuff he has written.">
     <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css"/>
+	<script>
+    function fizzBuzz(){
+        for(var i=1; i<101; i++){
+            var outputString = '';
+            if(i%3==0){
+                outputString+='Fizz';
+            }
+            if(i%5==0){
+                outputString+='Buzz';
+            }
+            if(outputString == ''){
+                outputString = i;
+            }
+            console.log(outputString);
+        }
+    }
+	</script>
 </head>
 <body>
 <br/><br/><br/><br/>
