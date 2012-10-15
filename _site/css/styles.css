@@ -1,0 +1,44 @@
+@font-face { font-family: Monaco; src: url('monaco.ttf'); } 
+
+* {
+	font-family: 'Inconsolata', sans-serif;
+	color: #FFFFFF; 
+	font-size: 20px
+}
+
+body {
+	width: 500px; margin: 0px auto; 
+	background-color:#002D4C; 
+    text-align:justify;
+}
+
+header h1 {
+	font-size: 25px;
+	margin-left: 0px; text-shadow: 2px 2px 5px #333;
+	color: #9DEA90;
+    
+}
+
+article p {
+	clear: both;
+    
+}
+
+
+
+a:hover {
+	color:#9DEA90;
+}
+
+nav a{
+	color:#9DEA90;
+}
+
+nav a:hover{
+	color: #FFFFFF;
+}
+
+footer p {
+	text-align: center; font-size: 12px;
+	color: #888; margin-top: 24px;
+}
