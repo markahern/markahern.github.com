@@ -23,7 +23,7 @@ div.content {
 
 div.container-narrow {
     margin: 0 auto;
-    width: 850px;
+    max-width: 850px;
     height: 1100px;
     position:relative;
     background: #fff;
